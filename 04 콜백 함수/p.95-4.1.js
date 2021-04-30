@@ -5,3 +5,11 @@ var timer = setInterval(function () { // timer에 setInterval함수를 실행한 결과를
 }, 300);
 // 즉 setInterval(func, delay)하면 매 delay ms마다 func를 실행함
 // timer에는 clearInterval을 하기 위한 고유한 ID가 담김
+
+/* 실행 결과
+0
+1
+2
+3
+4
+*/
