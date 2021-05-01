@@ -1,3 +1,5 @@
+// 예제 4-8의 func 함수 재활용
+
 var obj1 = {
   name: 'obj1',
   func: function () {

@@ -1,3 +1,5 @@
+// 메서드를 콜백 함수로 전달한 경우
+
 var obj = {
   vals: [1, 2, 3],
   logValues: function (v, i) {

@@ -1,3 +1,5 @@
+// 콜백 함수 내부에서의 this
+
 setTimeout(function () { console.log(this); }, 300); // (1)의 this는 전역객체를 가리킴.
 
 [1, 2, 3, 4, 5].forEach(function (x) {

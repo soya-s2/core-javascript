@@ -1,12 +1,14 @@
-var count = 0; // count¸¦ 0À¸·Î ÃÊ±âÈ­
-var timer = setInterval(function () { // timer¿¡ setIntervalÇÔ¼ö¸¦ ½ÇÇàÇÑ °á°ú¸¦ ÇÒ´ç. Ã¹ ¸Å°³º¯¼ö´Â ÀÍ¸íÇÔ¼öÀÌ°í µÎ¹øÂ° ¸Å°³º¯¼ö´Â 300ÀÌ¶ó´Â ¼ýÀÚÀÓ.
+// ì½œë°± í•¨ìˆ˜ ì˜ˆì œ - setInterval
+
+var count = 0;
+var timer = setInterval(function () { 
   console.log(count);
   if (++count > 4) clearInterval(timer);
 }, 300);
-// Áï setInterval(func, delay)ÇÏ¸é ¸Å delay ms¸¶´Ù func¸¦ ½ÇÇàÇÔ
-// timer¿¡´Â clearIntervalÀ» ÇÏ±â À§ÇÑ °íÀ¯ÇÑ ID°¡ ´ã±è
 
-/* ½ÇÇà °á°ú
+
+/* 
+ê²°ê³¼
 0
 1
 2

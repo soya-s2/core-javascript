@@ -1,3 +1,5 @@
+// 콜백 함수 예제 (2-2) Array.prototype.map - 인자의 순서를 임의로 바꾸어 사용한 경우
+
 var newArr2 = [10, 20, 30].map(function (index, currentValue) { // 인자의 순서를 임의로 바꾸어 사용한 경우 (제이쿼리의 방식대로)
   console.log(index, currentValue);
   return currentValue + 5;
