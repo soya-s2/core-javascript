@@ -1,3 +1,5 @@
+// 빈 요소와 배열의 순회
+
 var arr1 = [undefined, 1];
 var arr2 = [];
 arr2[1] = 1;
