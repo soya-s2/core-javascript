@@ -4,7 +4,9 @@ var copyObject = function (target) {
   var result = {};
   for (var prop in target) {
     result[prop] = target[prop];
-    /* 주의. result[prop]에 key가 들어가고 그 결과값이 복사되면서
+    /* 
+    - 주의 -
+    result[prop]에 key가 들어가고 그 결과값이 복사되면서
     key와 value가 모두 복사된다. 
     하지만 프로퍼티에 대해 동일한 참조형 데이터의 주소를 가진다.
     console.log(result.gender === target.gender); 는 true이다. */
