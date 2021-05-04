@@ -10,4 +10,4 @@ console.log(n === undefined); // false
 console.log(n === null); // true
 
 /* === (일치 연산자)로만 null 값을 판별 가능하다. 
-즉 typeof 쓰지 말 것. */
+즉 typeof 쓰지 말 것 */
