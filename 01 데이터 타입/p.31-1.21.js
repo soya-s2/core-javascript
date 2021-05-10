@@ -17,3 +17,6 @@ arr1.reduce(function (p, c, i) { return p + c + i; }, ''); // undefined011
 arr2.reduce(function (p, c, i) { return p + c + i; }, ''); // 11
 
 /* 각 메소드들의 기능에 대해서는 추후 다시 봐야함 */
+
+/* 01 데이터타입/forEach-map-filter-reduce (1.21)에
+모든 메소드의 문법과 예제들을 공부한 내용을 작성하였음 */
