@@ -18,4 +18,4 @@ console.log(d, window.d, this.d); // Uncaught ReferenceError: d is not defined
 
 /* 전역객체의 프로퍼티로 할당(window.?)한 경우에는
 delete 키워드로 삭제가 가능하지만,
-전역변수로 선언한 경우에는 삭제가 되지 않는다. */
+전역변수로 선언한 경우에는 delete로 삭제가 되지 않는다. */
