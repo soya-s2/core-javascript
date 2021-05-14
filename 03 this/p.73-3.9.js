@@ -4,7 +4,7 @@ var obj1 = {
   outer: function () {
     console.log(this); // (1) : obj1
     var innerFunc = function () {
-      console.log(this); // (2) : Window.. (3) obj2
+      console.log(this); // (2) : Window { ... } (3) obj2
     }
     innerFunc(); // 함수로서의 호출
 
