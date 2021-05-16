@@ -22,4 +22,9 @@ document.body.querySelector('#a').addEventListener('click', function (e) {
 - addEventListener 메서드는 자신의 this를 상속하도록 되어있음.
 그러므로 메서드명의 점(.) 앞 부분이 곧 this가 됨
 즉 document.body.querySelector('#a')의 결과인 객체 부분이 this가 되는 것임
+
++ 콜백 함수에서의 this는 '무조건 이거다!' 라고 정의할 수 없음.
+콜백 함수의 제어권을 가지는 함수(메서드)가 
+콜백 함수에서의 this를 무엇으로 할지를 결정하며,
+특별히 정의하지 않은 경우에는 기본적으로 전역객체를 바라봄.
 */
