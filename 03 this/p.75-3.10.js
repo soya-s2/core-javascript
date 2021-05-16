@@ -19,4 +19,5 @@ obj.outer(); // 메서드로서의 호출
 
 /* line 18의 obj.outer()를 통해
 outer()를 메서드로서 호출하여 
-self 변수에 메서드로서 호출한 시점의 (this === obj)를 할당함. */
+self 변수에 메서드로서 호출한 시점의 
+(this === obj)를 할당함. */
