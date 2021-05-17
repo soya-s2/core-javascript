@@ -6,8 +6,8 @@ var Cat = function (name, age) {
   this.age = age
   // console.log(this)
 };
-var choco = new Cat('초코', 7);
-var nabi = new Cat('나비', 5);
+var choco = new Cat('초코', 7); // this : choco
+var nabi = new Cat('나비', 5); // this : nabi
 console.log(choco, nabi);
 
 /* 
