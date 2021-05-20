@@ -21,6 +21,6 @@ nodeArr.forEach(function (node) {
 모든 배열 메서드를 적용할 수 있다. 
 
 이는 문자열도 가능하다. (인덱스와 length 프로퍼티를 지니기 때문.)
-단 문자열은 length 프로퍼티가 ReadOnly이므로 
+단 문자열은 length 프로퍼티가 읽기 전용이므로 
 push, pop, shift, unshift, slice 등은 에러가 됨.
 */
