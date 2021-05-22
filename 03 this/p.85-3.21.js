@@ -19,6 +19,6 @@ console.log(by);
 console.log(jn);
 
 /*
-Student { name: '보영', gender: 'female', school: '단국대' }
-Employee { name: '재난', gender: 'male', company: '구골' }
+by = Student { name: '보영', gender: 'female', school: '단국대' }
+jn = Employee { name: '재난', gender: 'male', company: '구골' }
 */
