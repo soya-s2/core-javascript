@@ -11,3 +11,13 @@ console.log(max, min); // 45 3
 코드 해석을 방해한다는 단점이 있음.
 그럼에도 불구하고 ES5 이하의 환경에서는
 마땅한 대안이 없으므로 실무에서 매우 광범위하게 활용되고 있음. */
+
+/* 
+펼치기 연산자는 말 그대로 펼친다.
+Math.max(...numbers); 를 하면
+Math.max.apply(null, numbers), Math.max(10, 20, 3, 16, 45)와 같은 것이다.
+새로운 배열을 만들고 얕은 복사만을 수행한다는 특징이 있다.
+iterable한 모든 인자는 펼칠 수 있고, concat 등을 대체할 수 있다.
+
+참고 : https://dkwjdi.tistory.com/217
+*/
