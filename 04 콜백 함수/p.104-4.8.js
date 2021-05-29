@@ -10,8 +10,8 @@ var obj1 = {
     };
   }
 };
-var callback = obj1.func();
-setTimeout(callback, 1000);
+var callback = obj1.func(); 
+setTimeout(callback, 1000); // 콜백 함수는 callback의 함수만 전달한다. this는 전달하지 않음.
 
 /* 
 결과 : obj1
