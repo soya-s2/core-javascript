@@ -15,7 +15,7 @@ var obj2 = {
   func: obj1.func
 };
 var callback2 = obj2.func();
-setTimeout(callback2, 1500); // obj2, obj1.func()를 실행한 결과를 담아 콜백으로 사용
+setTimeout(callback2, 1500); // obj2, obj1.func()를 복사해 obj2.func를 실행한 결과를 담아 콜백으로 사용
 
 var obj3 = { name: 'obj3' };
 var callback3 = obj1.func.call(obj3);
