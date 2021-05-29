@@ -16,3 +16,7 @@ var report = {
 };
 report.add(60, 85, 95); // report.add이므로 this는 report
 console.log(report.sum, report.count, report.average()); // 240 3 80
+
+/* 이외에도 콜백 함수와 함께 thisArg를 인자로 받는 메서드는
+forEach, map, filter, some, every, 
+fine, findIndex, flatMap, from 등이 있다. */
