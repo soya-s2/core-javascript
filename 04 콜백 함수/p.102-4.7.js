@@ -20,6 +20,7 @@ obj.logValues가 가리키는 함수만 전달한 것임.
 해당 객체를 this로 바라볼 수 없게 된다. ★ 
 */
 
+// line 11
 // Window { ... } 4 0
 // Window { ... } 5 1
 // Window { ... } 6 2
