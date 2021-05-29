@@ -5,7 +5,8 @@ var obj1 = {
   func: function () {
     var self = this;
     return function () {
-      console.log(self.name); 
+      console.log(self.name); // obj1
+      console.log(this); // Window { ... }
     };
   }
 };
