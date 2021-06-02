@@ -18,6 +18,6 @@ outer의 LexicalEnvironment에 접근해서 a를 찾음.
 그러므로 line 6에서는 2가 출력됨 
 
 outer 함수의 실행 컨텍스트가 종료되면
-LexicalEnvironment에 저장된 a, inner에 대한 참조를 지움 
+LexicalEnvironment에 저장된 a와 inner에 대한 참조를 지움 
 이후 각 주소에 저장된 값들은 자신을 참조하는 변수가 없어지므로
 가비지 컬렉터의 수집 대상이 됨 */
