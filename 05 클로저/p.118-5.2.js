@@ -10,7 +10,9 @@ var outer = function () {
 var outer2 = outer();
 console.log(outer2); // 2
 
-/* outer 함수의 실행 컨텍스트가 종료되기 이전에
+/* 
+outer 함수의 실행 컨텍스트가 종료되기 이전에
 inner 함수의 실행 컨텍스트가 종료된다.
 outer의 실행 컨텍스트가 종료된 후에도
-inner 함수를 호출할 수 있게 만들어보자. */
+inner 함수를 호출할 수 있게 만들어보자. 
+*/
