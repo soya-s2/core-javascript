@@ -10,8 +10,7 @@ var outer = function () {
 outer();
 
 
-/* 
-inner 함수 내부에서는
+/* inner 함수 내부에서는
 a를 선언하지 않았기 때문에
 environmentRecord에서 값을 찾지 못함.
 outerEnvironmentReference에 지정된 상위 컨텍스트인
@@ -21,5 +20,4 @@ outer의 LexicalEnvironment에 접근해서 a를 찾음.
 outer 함수의 실행 컨텍스트가 종료되면
 LexicalEnvironment에 저장된 a와 inner에 대한 참조를 지움 
 이후 각 주소에 저장된 값들은 자신을 참조하는 변수가 없어지므로
-가비지 컬렉터의 수집 대상이 됨 
-*/
+가비지 컬렉터의 수집 대상이 됨 */
