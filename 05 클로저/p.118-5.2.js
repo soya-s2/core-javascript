@@ -7,7 +7,7 @@ var outer = function () {
   };
   return inner();
 };
-var outer2 = outer();
+var outer2 = outer(); // inner 함수를 실행한 결과를 담고 있음. 그러므로 값이 2에서 변하지 않는 것.
 console.log(outer2); // 2
 console.log(outer2); // 2
 
