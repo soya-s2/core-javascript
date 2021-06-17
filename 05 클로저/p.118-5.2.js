@@ -9,6 +9,7 @@ var outer = function () {
 };
 var outer2 = outer();
 console.log(outer2); // 2
+console.log(outer2); // 2
 
 /* 
 outer 함수의 실행 컨텍스트가 종료되기 이전에
