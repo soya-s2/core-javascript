@@ -16,7 +16,7 @@ var partial2 = function () {
   return function () {
     var partialArgs = Array.prototype.slice.call(originalPartialArgs, 1);
     var restArgs = Array.prototype.slice.call(arguments);
-    for (var i = 0; i < partialArgs.length; i++) {
+    for (var i = 0; i < partialArgs.length; i++) { 
       if (partialArgs[i] === _) {
         partialArgs[i] = restArgs.shift();
       }
